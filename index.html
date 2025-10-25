@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LC Express - Entregas Rápidas em Guarulhos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 font-sans antialiased">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-lg fixed w-full z-50 top-0">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-blue-900">LC Express</a>
+      <div class="space-x-6 hidden md:flex">
+        <a href="#about" class="text-gray-700 hover:text-blue-900">Sobre</a>
+        <a href="#services" class="text-gray-700 hover:text-blue-900">Serviços</a>
+        <a href="#how-it-works" class="text-gray-700 hover:text-blue-900">Como Funciona</a>
+        <a href="#contact" class="text-gray-700 hover:text-blue-900">Contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="relative h-screen flex items-center justify-center text-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="https://img.freepik.com/fotos-gratis/jumbo-voando-no-ceu_23-2150895687.jpg?t=st=1761416880~exp=1761420480~hmac=c9c17a9dd687e584e11b533addb19763c2bdba4a2732f296542fc94a685dc8aa&w=2000"
+           alt="Transportes rodoviários e aéreos"
+           class="w-full h-full object-cover brightness-75">
+    </div>
+    <div class="absolute inset-0 bg-blue-900 bg-opacity-70"></div>
+    <div class="relative z-10 text-white max-w-3xl px-6" data-aos="fade-up" data-aos-duration="1000">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">🚀 Entregas rápidas, seguras e no tempo certo!</h1>
+      <p class="text-xl md:text-2xl mb-8 text-blue-100">A LC Express é a parceira ideal para quem precisa de agilidade e confiança em cada entrega.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#contact" class="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold py-4 px-8 rounded-full text-lg shadow-lg transform hover:scale-105 transition">
+          Solicitar entrega agora
+        </a>
+        <a href="#services" class="border-2 border-white hover:bg-white hover:text-blue-900 text-white font-bold py-4 px-8 rounded-full text-lg transition">
+          Nossos serviços
+        </a>
+      </div>
+      <p class="mt-8 text-blue-100">Atendemos empresas, e-commerces e pessoas físicas com rapidez e responsabilidade.</p>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="about" class="py-16 md:py-24 bg-white">
+    <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
+      <div class="lg:w-1/2" data-aos="fade-right" data-aos-duration="1000">
+        <img src="https://lcexpress.com.br/wp-content/uploads/2025/06/image-92.png"
+             alt="LC Express Delivery" class="rounded-lg shadow-xl w-full">
+      </div>
+      <div class="lg:w-1/2" data-aos="fade-left" data-aos-duration="1000">
+        <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-6">Quem é a LC Express?</h2>
+        <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+          A LC Express (Leandro Costa Express) nasceu com o objetivo de simplificar o transporte urbano. Com uma equipe comprometida e uma logística eficiente, garantimos que cada entrega chegue ao destino no menor tempo possível, com total segurança.
+        </p>
+        <ul class="space-y-4 text-gray-700">
+          <li class="flex items-start gap-3"><i data-feather="clock" class="text-blue-900"></i> Entregas expressas em tempo recorde</li>
+          <li class="flex items-start gap-3"><i data-feather="map-pin" class="text-blue-900"></i> Rastreamento e acompanhamento em tempo real</li>
+          <li class="flex items-start gap-3"><i data-feather="users" class="text-blue-900"></i> Atendimento humanizado e transparente</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="services" class="py-16 md:py-24 bg-gray-100 text-center">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-6" data-aos="fade-up">Serviços que aceleram o seu dia a dia</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-12" data-aos="fade-up" data-aos-delay="100">
+        Oferecemos soluções sob medida para cada tipo de entrega. Seja um documento urgente, um pacote delicado ou uma remessa comercial, nós cuidamos de tudo.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="100">
+          <i data-feather="truck" class="w-10 h-10 text-blue-900 mb-4"></i>
+          <h3 class="font-bold text-xl mb-2">Entregas rápidas porta a porta</h3>
+          <p>Coletamos e entregamos seu pacote diretamente no endereço especificado.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="200">
+          <i data-feather="calendar" class="w-10 h-10 text-blue-900 mb-4"></i>
+          <h3 class="font-bold text-xl mb-2">Coleta e entrega no mesmo dia</h3>
+          <p>Solicite pela manhã e receba a entrega ainda no mesmo dia útil.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="300">
+          <i data-feather="briefcase" class="w-10 h-10 text-blue-900 mb-4"></i>
+          <h3 class="font-bold text-xl mb-2">Motoboy corporativo</h3>
+          <p>Planos mensais personalizados para empresas e escritórios.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="400">
+          <i data-feather="map" class="w-10 h-10 text-blue-900 mb-4"></i>
+          <h3 class="font-bold text-xl mb-2">Rotas personalizadas</h3>
+          <p>Criamos rotas eficientes de acordo com sua demanda específica.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="500">
+          <i data-feather="clock" class="w-10 h-10 text-blue-900 mb-4"></i>
+          <h3 class="font-bold text-xl mb-2">Atendimento 24h</h3>
+          <p>Disponibilidade total para empresas com entregas fora do horário comercial.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="600">
+          <i data-feather="package" class="w-10 h-10 text-blue-900 mb-4"></i>
+          <h3 class="font-bold text-xl mb-2">Serviços corporativos e e-commerce</h3>
+          <p>Soluções logísticas completas para empresas e lojas virtuais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Como Funciona -->
+  <section id="how-it-works" class="py-16 md:py-24 bg-white text-center">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-10" data-aos="fade-up">Entregar com a LC Express é simples assim 👇</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-6 rounded-xl shadow" data-aos="fade-up" data-aos-delay="100">
+          <i data-feather="message-square" class="text-blue-900 w-10 h-10 mx-auto mb-4"></i>
+          <h3 class="font-bold text-xl mb-2">1️⃣ Solicite sua entrega</h3>
+          <p>Entre em contato e informe o destino.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow" data-aos="fade-up" data-aos-delay="200">
+          <i data-feather="user" class="text-blue-900 w-10 h-10 mx-auto mb-4"></i>
+          <h3 class="font-bold text-xl mb-2">2️⃣ Coleta rápida</h3>
+          <p>Um entregador vai até você em poucos minutos.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow" data-aos="fade-up" data-aos-delay="300">
+          <i data-feather="check-circle" class="text-blue-900 w-10 h-10 mx-auto mb-4"></i>
+          <h3 class="font-bold text-xl mb-2">3️⃣ Entrega confirmada</h3>
+          <p>Seu cliente recebe e você acompanha tudo em tempo real.</p>
+        </div>
+      </div>
+      <div class="mt-12" data-aos="fade-up" data-aos-delay="400">
+        <a href="#contact" class="bg-blue-900 hover:bg-blue-800 text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 inline-flex items-center gap-2">
+          <i data-feather="phone"></i> Fale agora com a LC Express
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato + Footer mantidos -->
+    <!-- Contato -->
+  <section id="contact" class="py-20 bg-blue-900 text-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Entre em contato com a LC Express</h2>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+
+        <!-- Formulário -->
+        <div class="bg-white bg-opacity-10 p-8 rounded-xl backdrop-blur-sm">
+          <form id="contactForm" class="space-y-6">
+            <div class="flex items-center gap-3">
+              <i data-feather="user" class="text-yellow-400"></i>
+              <input id="name" type="text" placeholder="Seu nome completo"
+                     class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-10 border border-white border-opacity-30 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+            </div>
+            <div class="flex items-center gap-3">
+              <i data-feather="mail" class="text-yellow-400"></i>
+              <input id="email" type="email" placeholder="Seu e-mail"
+                     class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-10 border border-white border-opacity-30 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+            </div>
+            <div class="flex items-center gap-3">
+              <i data-feather="phone" class="text-yellow-400"></i>
+              <input id="phone" type="tel" placeholder="Seu telefone"
+                     class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-10 border border-white border-opacity-30 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+            </div>
+            <div class="flex items-start gap-3">
+              <i data-feather="message-square" class="text-yellow-400 mt-3"></i>
+              <textarea id="message" rows="4" placeholder="Digite sua mensagem"
+                        class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-10 border border-white border-opacity-30 focus:outline-none focus:ring-2 focus:ring-yellow-400"></textarea>
+            </div>
+            <button type="submit" class="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold py-3 px-6 rounded-lg transition duration-300 w-full">
+              Enviar mensagem
+            </button>
+          </form>
+        </div>
+
+        <!-- Contatos + Mapa -->
+        <div class="space-y-8">
+          <div class="space-y-4">
+            <div class="flex items-center gap-4">
+              <i data-feather="map-pin" class="text-yellow-400 w-6 h-6"></i>
+              <p><strong>Endereço:</strong> Rua das Palmeiras, 245 — Jardim Maia, Guarulhos - SP</p>
+            </div>
+            <div class="flex items-center gap-4">
+              <i data-feather="phone" class="text-yellow-400 w-6 h-6"></i>
+              <p><strong>Telefone:</strong> <a href="tel:+551134567890" class="underline hover:text-yellow-400">(11) 3456-7890</a></p>
+            </div>
+            <div class="flex items-center gap-4">
+              <i data-feather="smartphone" class="text-yellow-400 w-6 h-6"></i>
+              <p><strong>WhatsApp:</strong> <a href="https://wa.me/5511998765432" target="_blank" class="underline hover:text-yellow-400">(11) 9 9876-5432</a></p>
+            </div>
+            <div class="flex items-center gap-4">
+              <i data-feather="mail" class="text-yellow-400 w-6 h-6"></i>
+              <p><strong>E-mail:</strong> <a href="mailto:atendimento@lcexpress.com.br" class="underline hover:text-yellow-400">atendimento@lcexpress.com.br</a></p>
+            </div>
+            <div class="flex items-center gap-4">
+              <i data-feather="globe" class="text-yellow-400 w-6 h-6"></i>
+              <p><strong>Site:</strong> <a href="https://lcexpress.com.br" target="_blank" class="underline hover:text-yellow-400">www.lcexpress.com.br</a></p>
+            </div>
+          </div>
+
+          <!-- Google Maps -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.122569257633!2d-46.53831492414188!3d-23.52890266092264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ec26cfdcfed%3A0x49e7eb5fd4a7f3b2!2sRua%20das%20Palmeiras%2C%20245%20-%20Jardim%20Maia%2C%20Guarulhos%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1716222244841!5m2!1spt-BR!2sbr"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-lg shadow-lg"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- Footer -->
+  <footer class="bg-blue-950 text-white py-8">
+    <div class="container mx-auto px-6 text-center space-y-4">
+      <p class="font-semibold">📍 Rua das Palmeiras, 245 — Jardim Maia, Guarulhos - SP</p>
+      <p>📞 (11) 3456-7890 | 📱 (11) 9 9876-5432 | 📧 atendimento@lcexpress.com.br</p>
+      <p>🌐 <a href="https://lcexpress.com.br" target="_blank" class="underline hover:text-yellow-400">www.lcexpress.com.br</a></p>
+      <p class="text-gray-400 text-sm">© 2025 62.827.806 LEANDRO COSTA DE ALMEIDA — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  <!-- (mesmo conteúdo anterior) -->
+
+  <script>
+    feather.replace();
+
+    // Envio WhatsApp + mailto
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const formattedMessage = `*Nova mensagem do site LC Express* 🚀%0A%0A` +
+        `*Nome:* ${name}%0A` +
+        `*E-mail:* ${email}%0A` +
+        `*Telefone:* ${phone}%0A` +
+        `*Mensagem:* ${message}`;
+
+      const whatsappNumber = '5511998765432';
+      const whatsappLink = `https://wa.me/${whatsappNumber}?text=${formattedMessage}`;
+      window.open(whatsappLink, '_blank');
+
+      const mailtoLink = `mailto:atendimento@lcexpress.com.br?subject=Nova%20Mensagem%20LC%20Express&body=${formattedMessage}`;
+      console.log('Link mailto:', mailtoLink);
+    });
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    feather.replace();
+    AOS.init({ once: true, duration: 1000 });
+  </script>
+
+  <script>
+    feather.replace();
+
+    // Envio WhatsApp + mailto
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const formattedMessage = `*Nova mensagem do site LC Express* 🚀%0A%0A` +
+        `*Nome:* ${name}%0A` +
+        `*E-mail:* ${email}%0A` +
+        `*Telefone:* ${phone}%0A` +
+        `*Mensagem:* ${message}`;
+
+      const whatsappNumber = '5511998765432';
+      const whatsappLink = `https://wa.me/${whatsappNumber}?text=${formattedMessage}`;
+      window.open(whatsappLink, '_blank');
+
+      const mailtoLink = `mailto:atendimento@lcexpress.com.br?subject=Nova%20Mensagem%20LC%20Express&body=${formattedMessage}`;
+      console.log('Link mailto:', mailtoLink);
+    });
+  </script>
+</body>
+</html>
